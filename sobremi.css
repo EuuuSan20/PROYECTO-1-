@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('img/fondo.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+.anchocompleto{
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.botones{
+    width: 200px;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(226, 166, 138);
+}
+.boton, a{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+    text-decoration: none;
+}
+.boton:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.misitio{
+    margin: 0 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 975px;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    background-color: rgb(226, 166, 138);
+    box-shadow: 0 0 10px 10px rgba(107, 98, 98, 0.37);
+}
+.fotito img{
+    width: 200px;
+    height: auto;
+    margin: 30px;
+}
+.parrafo p{
+    color: white;
+    margin: 20px;
+}
